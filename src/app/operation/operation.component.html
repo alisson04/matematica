@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <label><span class="badge bg-success">Acertos: {{ this.control.totalCorrectOperations }}</span></label>
+      <label class="float-end">
+        <span class="badge bg-danger">Erros: {{ this.control.totalWrongOperations }}</span>
+      </label>
+    </div>
+
+    <div class="col-12 text-center">
+        <div class="alert alert-secondary fw-bold mt-1" role="alert">{{ operation.label }}</div>
+    </div>
+
+    <div class="col-12 text-center">
+      <div class="alert alert-secondary fw-bold mt-1" role="alert">{{ answer ? answer : '?' }}</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-4" *ngFor="let i of ['1','2', '3', '4', '5', '6', '7', '8', '9', '0']">
+          <app-number-button (click)="checkOperation(i)" [value]="i"></app-number-button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
