@@ -1,19 +1,19 @@
-#Preview
+# Preview
 
 ![descktop_image](https://user-images.githubusercontent.com/5869754/218634018-59c06e62-9a0f-463c-bb38-99b24bf60ad7.jpeg)
 
-##Features
+## Features
 * Generate random multiplication operations to be solved
 * Save amount of correct and wrong questions
 
-##Features in development
+## Features in development
 * Add more types of operations ( + - % /)
 
 > ⚠️ Status: Developing
 > 
 > ⚠️ IMPORTANT: This application has front and back together INTENTIONALLY to simulate backend operations
 
-##Tecnologies Used
+## Tecnologies Used
 <table>
     <tr>
         <td>Node</td>
